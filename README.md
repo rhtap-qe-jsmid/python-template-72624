@@ -6,7 +6,7 @@ Before you begin creating an application with this `devfile` code sample, it's h
 
 * [Python `devfile.yaml`](https://github.com/redhat-appstudio/devfile-sample-python-dance/blob/main/devfile.yaml)
 * [Python `Dockerfile`](https://github.com/redhat-appstudio/devfile-sample-python-dance/blob/main/docker/Dockerfile)
-
+ 
 1. The `devfile.yaml` file has an [`image-build` component](https://github.com/redhat-appstudio/devfile-sample-python-dance/blob/main/devfile.yaml#L25-L31) that points to your `Dockerfile`.
 2. The [`docker/Dockerfile`](https://github.com/redhat-appstudio/devfile-sample-python-dance/blob/main/docker/Dockerfile) contains the instructions you need to build the code sample as a container image.
 3. The `devfile.yaml` [`kubernetes-deploy` component](https://github.com/redhat-appstudio/devfile-sample-python-dance/blob/main/devfile.yaml#L32-L44) points to a `deploy.yaml` file that contains instructions for deploying the built container image.
